@@ -17,7 +17,7 @@ public class AlunniDao {
 	public AlunniDao() {
 		this.entityClass = Alunno.class;
 	}
-
+//bella rega
 	public EntityManager getEntityManager() {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa-example");
 		EntityManager entityMananger = emf.createEntityManager();
